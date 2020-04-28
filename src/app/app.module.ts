@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { UiSwitchModule } from 'ngx-toggle-switch';
 import { AppComponent } from './app.component';
 
 @NgModule({
@@ -9,7 +8,6 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    UiSwitchModule
   ],
   providers: [],
   bootstrap: [AppComponent]
